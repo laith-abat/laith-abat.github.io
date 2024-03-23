@@ -1,4 +1,8 @@
 import logo from './logo.svg';
+import Navbar from './Navbar';
+import Home from './Home';
+import Careers from './Careers';
+import { Routes } from 'react-router-dom';
 import './App.css';
 
 function App() {
