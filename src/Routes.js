@@ -2,7 +2,7 @@
  * Using react-router@3.0.2
  */
 import React from 'react';
-import { Route, Router } from 'react-router';
+import { browserHistory, Route, Router } from 'react-router';
 import App from './App';
 
 /**
@@ -14,7 +14,7 @@ import App from './App';
  */
 
 export default () => (
-  <Router>
+  <Router history={browserHistory}>
     <Route path={`${process.env.PUBLIC_URL}/`} component={App}>
       <Route path='/one' />
       <Route path='/two' />
