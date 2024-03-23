@@ -1,8 +1,8 @@
 import logo from './logo.svg';
-import Navbar from './Navbar';
-import Home from './Home';
-import Careers from './Careers';
-import About from './About';
+import Navbar from './routes/Navbar';
+import Home from './routes/Home';
+import Careers from './routes/Careers';
+import About from './routes/About';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
