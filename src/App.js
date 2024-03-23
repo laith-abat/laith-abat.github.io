@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import Navbar from './Navbar';
 import Home from './Home';
 import Careers from './Careers';
+import About from './About';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
