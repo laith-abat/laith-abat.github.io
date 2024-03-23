@@ -11,9 +11,9 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/careers" element={<Careers />} />
+        <Route path={process.env.PUBLIC_URL + '/'} element={<Home />} />
+        <Route path={process.env.PUBLIC_URL + '/about'} element={<About />} />
+        <Route path={process.env.PUBLIC_URL + '/careers'} element={<Careers />} />
       </Routes>
     </>
   );
