@@ -15,9 +15,6 @@ import App from './App';
 
 export default () => (
   <Router history={browserHistory}>
-    <Route path={`${process.env.PUBLIC_URL}/`} component={App}>
-      <Route path='/one' />
-      <Route path='/two' />
-    </Route>
+    <Route path={`${process.env.PUBLIC_URL}/`} component={App}/>
   </Router>
 );
